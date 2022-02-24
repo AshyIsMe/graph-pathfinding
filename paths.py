@@ -25,3 +25,6 @@ def main():
     path = dict(nx.all_pairs_shortest_path(g))
     e = time.time()
     print(f"All pairs in {e-s} seconds")
+
+if __name__=="__main__":
+    main()
